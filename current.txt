@@ -1,7 +1,14 @@
 
-associative array
+
+array shift and unshift
+42
 
 
-https://www.youtube.com/watch?v=4g92hYriSXw&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&index=33
+https://www.youtube.com/watch?v=_lix9Hfp8AI&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&index=40
+
 
 31-50
+
+
+
+time elementr pro nayyar 57:56

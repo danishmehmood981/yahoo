@@ -131,6 +131,10 @@
         return $another_string;
     }
 
+    function do_something_else(int $value) {
+        return rand(45, 43);
+    }
+
     $variable_1 = 5;
     $variable_2 = 6;
     $variable_3 = 7;
@@ -150,7 +154,7 @@
         $value = abs($value);   //returns the absolute value
         return rand($value, $value + 50);
     }
-
+ 
     $variable_4 = 45;
 
     echo "<br>the function get_value(\$value){} called --> " . pass_by_value_function($variable_1);
