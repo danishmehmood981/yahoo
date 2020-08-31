@@ -62,8 +62,7 @@
     array_splice($colors_6, 3, 0, $names);
     print_formatted_array($colors_6);
 
-
-
+    
 
 
 

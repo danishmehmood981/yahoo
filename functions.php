@@ -17,15 +17,15 @@
         echo "<br>I am a function";
     }
 
+    //calling of function several times
+    test_function();
+    test_function();
+    test_function();
+    test_function();
+    test_function();
+    test_function();
+    test_function();
 
-    //calling of function
-    test_function();
-    test_function();
-    test_function();
-    test_function();
-    test_function();
-    test_function();
-    test_function();
 
 
     echo "<br>----------------------------------------------------<br>";
@@ -131,8 +131,8 @@
         return $another_string;
     }
 
-    function do_something_else(int $value) {
-        return rand(45, 43);
+    function do_something_else(int $min, int $max): int {
+        return rand($min, $max);
     }
 
     $variable_1 = 5;
@@ -154,7 +154,7 @@
         $value = abs($value);   //returns the absolute value
         return rand($value, $value + 50);
     }
- 
+
     $variable_4 = 45;
 
     echo "<br>the function get_value(\$value){} called --> " . pass_by_value_function($variable_1);
@@ -228,16 +228,19 @@
     //assigning values by references
 
     function get_random_values() {
-        return rand(34,43);
+        return rand(34, 43);
     }
 
-    function get_random_value(int $min, int $max) : int {
+    function get_random_value(int $min, int $max): int {
         return rand($min, $max);
     }
 
 
     get_some_value("something");
     echo "<br>here is the random value " . get_random_value(20, 30);
+
+
+
 
 
 ?>

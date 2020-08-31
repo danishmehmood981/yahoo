@@ -1,14 +1,35 @@
 
 
-array shift and unshift
-42
+
+this phpstorm version does not show autocompletes for latest version php, that i have installed but the version of
+7.2, that the phpstorm supports
 
 
-https://www.youtube.com/watch?v=_lix9Hfp8AI&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&index=40
+
+array key functions
 
 
-31-50
 
 
+https://www.youtube.com/watch?v=owztt8rCH_M&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&index=97
+
+
+102,
+files in php
+
+
+SERVER VARIABLES SUPER GLOBAL VARIABLE
+
+SERVER
 
 time elementr pro nayyar 57:56
+
+
+
+
+
+
+
+
+
+

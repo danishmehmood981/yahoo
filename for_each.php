@@ -32,7 +32,8 @@
 		"off-white" => 112,
 		"gray" => 322,
 		"dark-gray" => 232,
-		"light-gray" => 232
+		"light-gray" => 232,
+        "light-blue" => 432
 	];
 
 	//printing the array elements with the for each loop
@@ -62,21 +63,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ?>
+
+<link rel="stylesheet" href="style.css">
