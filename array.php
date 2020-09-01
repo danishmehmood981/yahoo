@@ -19,11 +19,13 @@
 	echo $mixed_array[2] . "<br>";
 	echo $mixed_array[3] . "<br>";
 	echo $mixed_array[4] . "<br>";
-	echo "<br>------------------------------------------------------------------------------";
+	echo "<br><hr>------------------------------------------------------------------------------";
 
 	//the funciton to print all the elements in the array, instead of echo multimple times
+	echo "<br><pre>";
 	print_r($mixed_array);
-	
+	echo "</pre>";
+
 	echo "<br>";
 
 	//we can do this for the readability of the php indexed arrays, 
@@ -44,6 +46,14 @@
 		for ($i = 0; $i < sizeof($array); $i++) {	//size of operator returns the size of array
 			echo $array[$i] . "<br>";
 		}
+	}
+
+	// fill the array with random numbers, and return it
+	function populate_array(array $array) : array {
+		foreach ($array as $value) {
+			$value = rand(200, 300);
+		}
+		return $array;
 	}
 
 
@@ -70,7 +80,19 @@
 	print_array_loop_formatted($random_array);
 
 
+	echo "<br><br><hr>";
+
 	//the array concept is very important, it will be used in php with mysql too , very important
+
+	//if we want to fix the array size, we can use splitFixedsize
+
+	// this array can only have 10 elements
+	
+	// splitFixedSize(10) not found in this version of php, nor in the documentation, 7.4.6 php version
+	// $num_array = new SplitFixedSize(10);
+	// $num_array = populate_array($num_array);
+	// print_array_arranged($num_array);
+
 
 
 
@@ -89,3 +111,12 @@
 
 
  ?>
+
+ <style>
+ 	body {
+ 		background-color: wheat;
+ 		padding: 20px;
+ 		margin: 20px;
+ 		font-family: verdana;
+ 	}
+ </style>
